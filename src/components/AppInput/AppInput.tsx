@@ -4,7 +4,7 @@ interface IAppLabel {
   labelChange: (value: string) => void;
 }
 
-export const AppLabel = ({ type, labelText, labelChange }: IAppLabel) => {
+export const AppInput = ({ type, labelText, labelChange }: IAppLabel) => {
   return (
     <label htmlFor="">
       {labelText}
